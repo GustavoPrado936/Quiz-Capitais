@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Capitais</title>
+    
+</head>
+<body>
+    <div class="start_btn"><button>Começar Quiz</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Regras do Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Terá apenas <span>15 segundos</span> para responder cada questão.</div>
+            <div class="info">2. Depois de selecionar a resposta, ela não pode ser desfeita.</div>
+            <div class="info">3. Você não pode selecionar nenhuma opção depois que o tempo acabar.</div>
+            <div class="info">4. Não é possível sair do quiz enquanto está no jogo.</div>
+            <div class="info">5. Ira contabilizar pontos a cada resposta correta.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Sair Quiz</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz Capitais</div>
+            <div class="cronometro">
+                <div class="tempo_restante_txt">Tempo restante:</div>
+                <div class="cronometro_sec">15</div>
+            </div>
+            <div class="linha_tempo"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="lista_opcao">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Próxima</button>
+        </footer>
+    </div>
+
+    <div class="resultado_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você concluiu o Quiz!</div>
+        <div class="score_text">
+        
+        </div>
+        <div class="buttons">
+            <button class="restart">Repetir Quiz</button>
+            <button class="quit">Sair do Quiz</button>
+        </div>
+    </div>
+
+    <script src="questoes.js" ></script>
+
+    <script src="script.js" ></script>
+
+</body>
+</html>
+</html>
